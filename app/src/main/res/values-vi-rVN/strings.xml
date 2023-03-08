@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Compass</string>
+    <string name="no_gps_network">Thiết bị không có GPS và mạng</string>
+    <string name="noti_service_not_available">Dịch vụ không có sẵn</string>
+    <string name="text_invalid_lat_long_used">Đã sử dụng latitude longtitude không hợp lệ</string>
+    <string name="text_no_address_found">Không tìm thấy địa chỉ</string>
+    <string name="text_address_found">Đã tìm thấy địa chỉ</string>
+    <string name="text_decription_notification_warning">Nếu bạn thấy biểu tượng cảnh báo màu vàng @ hoặc giá trị của Trường Magnetic là thấp hoặc trung bình, bạn sẽ cần phải hiệu chỉnh la bàn của mình.</string>
+    <string name="text_decription_action_warning">Tạo hình 8 cho đến khi la bàn của bạn được hiệu chuẩn. Bạn chỉ nên làm điều này một vài lần.</string>
+    <string name="title_magnetic">Từ trường : </string>
+    <string name="title_calibrate">Hiệu chỉnh</string>
+    <string name="magnetic_calibrate">Thấp</string>
+    <string name="medium_calibrate">Trung bình</string>
+    <string name="hight_calibrate">Cao</string>
+    <string name="text_button_rate">Đánh giá</string>
+    <string name="text_button_rate_later">Một lát sau</string>
+    <string name="text_button_no_thanks">Không</string>
+    <string name="text_title_dialog_rate_app">Bạn có thích ứng dụng này không?</string>
+    <string name="text_message_dialog_rate_app">Nếu bạn thích sử dụng ứng dụng này, bạn có muốn dành một chút thời gian để đánh giá nó không? Nó sẽ không mất nhiều hơn một phút. Cảm ơn sự ủng hộ của bạn!</string>
+    <string name="text_direction">%d\u00b0 %s</string>
+    <string name="setting_title">Cài đặt</string>
+    <string name="share_title">Chia sẻ ứng dụng</string>
+    <string name="rate_us_title">Đánh giá</string>
+    <string name="about_us_title">Giới thiệu</string>
+    <string name="text_decription1">Gps Compass Navigation Map: là la bàn thông minh tốt nhất cho android, thân thiện với người dùng với thiết kế được chế tác đẹp mắt là ứng dụng la bàn tốt nhất tuyệt đẹp nhất trong cửa hàng.</string>
+    <string name="text_decription2">Nó có tất cả mọi thứ bạn có thể cần để có được ở ngoài trời tuyệt vời, bao gồm GPS la bàn kỹ thuật số cho thấy hướng tương đối so với chỉ đường địa lý, với các tọa độ ở phía bắc và từ Bắc, nam, đông và tây, tốc độ di chuyển và bản đồ giúp điều hướng thế giới của bạn nhanh hơn và dễ dàng hơn.</string>
+    <string name="text_decription3">Nó giúp bạn xác định vị trí vị trí hiện tại của bạn và bạn có thể tìm thấy con đường của bạn một cách dễ dàng thông qua các ứng dụng la bàn tốt nhất với bản đồ gps.</string>
+    <string name="text_decription4">Nếu bạn thích ứng dụng, hãy giúp chúng tôi đánh giá 5 sao. Cảm ơn bạn rất nhiều!</string>
+    <string name="text_address_tv_address">Địa chỉ :</string>
+    <string name="text_address_latitude">Latitude :</string>
+    <string name="text_address_longitude">Longitude :</string>
+    <string name="text_address_networks_gps_20_m">NetWorks GPS ±20 m</string>
+    <string name="text_calibrate_low">Thấp</string>
+    <string name="search_here">Tìm kiếm</string>
+
+    <string name="text_like_Rate">Rating 5 star</string>
+    <string name="text_message_content">If you like this app, please rate it\n  and give a good comment  \n for some suggestions</string>
+    <string name="API_WEATHER_KEY">f6504cbbce13fbea7eafdb6ed5846ab7</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_how_to_use"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_how_to_use"
+        android:layout_margin="@dimen/margin_common_layout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_magnetic_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_magnetic"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_h4" />
+
+            <TextView
+                android:id="@+id/tv_magnetic_how_to_use"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_common_layout"
+                android:text="@string/text_calibrate_low"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/text_h4" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_decription_warning_how_to_use"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_common_layout"
+            android:text="@string/text_decription_notification_warning"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_h4" />
+
+        <TextView
+            android:id="@+id/tv_decription_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_common_layout"
+            android:text="@string/text_decription_action_warning"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/text_h4" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="@dimen/margin_common_layout"
+            android:background="@color/color_white">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/margin_common_layout"
+                android:src="@mipmap/calibrate_warning" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

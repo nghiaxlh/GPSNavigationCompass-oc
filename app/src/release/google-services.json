@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "175946860673",
+    "firebase_url": "https://gps-compass-navigation.firebaseio.com",
+    "project_id": "gps-compass-navigation",
+    "storage_bucket": "gps-compass-navigation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175946860673:android:059c90df0b72e50c4c6580",
+        "android_client_info": {
+          "package_name": "com.pyxis.compass.gpscompassnavigationmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175946860673-6bm1k5ed3boe6vtms2r60fqe2cceto2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI12f23h42D9-CTPEj_FBmWzC4FA3G6bw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175946860673-6bm1k5ed3boe6vtms2r60fqe2cceto2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

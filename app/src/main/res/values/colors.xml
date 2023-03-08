@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262626</color>
+    <color name="colorPrimaryDark">#1e1e1e</color>
+    <color name="colorAccent">#f73476</color>
+    <color name="color_background">#1a1919</color>
+    <color name="color_text">#f7f7f7</color>
+    <color name="color_white">#f5f5f5</color>
+    <color name="color_warning">#ecd722</color>
+    <color name="color_low">#ef4721</color>
+    <color name="color_medium">#e4bc1c</color>
+    <color name="color_icon_background">#cc461d</color>
+    <color name="color_click_icon">#e6f7f7f7</color>
+    <color name="color_defaut_icon">#e6cac9c9</color>
+    <color name="flash_color">#df0909</color>
+
+    <color name="color_black">#000000</color>
+    <color name="colorBlackTrans40">#66000000</color>
+    <color name="colorGreen">#6CB636</color>
+    <color name="bg_weather">#FA2F2F3B</color>
+    <color name="text_message_rate_color">#535353</color>
+</resources>

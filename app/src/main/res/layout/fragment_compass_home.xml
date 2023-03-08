@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/btn_settings_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_button_click_oval"
+        android:padding="8dp"
+        android:tint="@color/color_white"
+        app:srcCompat="@drawable/ic_compass_setting" />
+
+    <ImageButton
+        android:id="@+id/btn_warning_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/background_button_click_oval"
+        android:padding="8dp"
+        android:tint="@color/color_warning"
+        app:srcCompat="@drawable/ic_compass_warning" />
+
+    <TextView
+        android:id="@+id/tv_degrees_direction_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_warning_home"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="@string/text_compass_dg_direction"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/text_h6" />
+
+    <RelativeLayout
+        android:id="@+id/rl_compass"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_270sdp"
+        android:layout_below="@+id/tv_degrees_direction_home"
+        android:layout_marginBottom="@dimen/_20sdp">
+
+        <com.pyxis.compass.gpscompassnavigationmap.view.CustomImageCompassView
+            android:id="@+id/iv_compass_home"
+            android:layout_width="@dimen/_260sdp"
+            android:layout_height="@dimen/_260sdp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_compass" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@mipmap/ic_compass_coordinate_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_limit"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:layout_width="@dimen/_55sdp"
+                android:layout_height="@dimen/_55sdp"
+                android:src="@drawable/ball" />
+
+            <View
+                android:layout_width="0.25dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:background="@color/color_white" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.25dp"
+                android:layout_centerVertical="true"
+                android:background="@color/color_white" />
+
+            <ImageView
+                android:id="@+id/iv_ball"
+                android:layout_width="@dimen/_15sdp"
+                android:layout_height="@dimen/_15sdp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_gyroscope" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_all_options"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_location_city_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="Wait..."
+            android:textColor="@color/colorGreen"
+            android:textSize="@dimen/_16sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_all_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ads_banner_home"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageButton
+            android:id="@+id/btn_weather_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_click_oval"
+            android:padding="8dp"
+            app:srcCompat="@drawable/ic_cloud" />
+
+        <ImageButton
+            android:id="@+id/btn_location_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_click_oval"
+            android:padding="8dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_compass_address" />
+
+        <ImageButton
+            android:id="@+id/btn_google_map_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_click_oval"
+            android:padding="8dp"
+            android:tint="@color/color_white"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_compass_map_view" />
+
+        <ImageButton
+            android:id="@+id/btn_rate_app_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_click_oval"
+            android:padding="8dp"
+            android:tint="@color/color_warning"
+            app:srcCompat="@drawable/ic_compass_star" />
+
+        <ImageButton
+            android:id="@+id/btn_flash_light_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_click_oval"
+            android:padding="8dp"
+            android:tint="@color/color_white"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_flash_view" />
+    </LinearLayout>
+
+<!--    <com.google.android.gms.ads.AdView xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/ads_banner_home"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        app:adSize="SMART_BANNER"-->
+<!--        app:adUnitId="@string/banner_id_1" />-->
+    <RelativeLayout
+        android:id="@+id/ads_banner_home"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_start_text_address_cp">
+        <com.facebook.msdk.BannerCustom
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="@dimen/_1sdp"
+            app:adSize="SMART_BANNER"
+            app:adUnitId="@string/banner_id_1"/>
+    </RelativeLayout>
+</RelativeLayout>

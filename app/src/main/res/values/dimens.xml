@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_h5">20sp</dimen>
+    <dimen name="text_h4">16sp</dimen>
+    <dimen name="margin_common_layout">16dp</dimen>
+    <dimen name="text_h6">24sp</dimen>
+    <dimen name="margin_top_settings">36dp</dimen>
+    <dimen name="margin_end_settings">16dp</dimen>
+    <dimen name="margin_top_text_degress_direction_map">12dp</dimen>
+    <dimen name="margin_top_image_direction_map">16dp</dimen>
+    <dimen name="margin_bottom_text_location_name_compass">16dp</dimen>
+    <dimen name="margin_bottom_text_lat_long_cp">8dp</dimen>
+    <dimen name="margin_end_latitude_cp">8dp</dimen>
+    <dimen name="margin_start_longitude_cp">8dp</dimen>
+    <dimen name="margin_bottom_image_star_warning_cp">16dp</dimen>
+    <dimen name="margin_start_text_address_cp">8dp</dimen>
+    <dimen name="margin_bottom_linear_address_cp">9dp</dimen>
+    <dimen name="text_address_cp">16sp</dimen>
+    <dimen name="margin_top_text_address_cp">4dp</dimen>
+    <dimen name="width_height_icon_setting">40dp</dimen>
+</resources>
